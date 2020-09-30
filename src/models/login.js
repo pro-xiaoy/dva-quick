@@ -1,4 +1,4 @@
-import { routerRedux, router } from 'dva';
+import { routerRedux, router } from 'dva/router';
 import { login } from '@/services/login'
 export default {
   namespace: 'login',
