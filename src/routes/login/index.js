@@ -12,7 +12,6 @@ const Login = (props) => {
    const {dispatch} = props
   const onFinish = (values) => {
     const {username, password} = values
-    console.log("finsh++", values);
     dispatch({
       type: 'login/login',
       payload: {

@@ -1,10 +1,9 @@
 
 import request from '@/utils/request';
-
-export async function login(payload) {
+export async function getPageHomeIndex(payload) {
   return request({
     method: 'post',
-    url: `/api/client/login`,
+    url: `/api/pageHomeIndex/client/getPageHomeIndex`,
     data: payload,
   })
 }
