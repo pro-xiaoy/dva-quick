@@ -11,7 +11,6 @@ export default {
   effects: {
     *getPageHomeIndex({ payload }, { call, put }) {
       const response = yield call(getPageHomeIndex, payload)
-      const {data} = response.data
       console.log('res++++', response )
     },
     *logout(_, { put }) { }

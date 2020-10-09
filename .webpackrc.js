@@ -12,5 +12,6 @@ export default {
       target: 'http://218.2.247.130:18854/',
       pathRewrite: {'^/api' : ''}
     }
-  }
+  },
+  disableCSSModules: true
 };

@@ -1,18 +1,16 @@
 import { Layout } from "antd";
-import {connect} from 'dva'
+import {connect} from 'dva';
+import './index.less';
 const { Header, Footer, Sider, Content } = Layout;
-
 const Home = (props) => {
   return (
     <>
-      <Layout>
-        <Header>Header</Header>
-        <Layout>
-          <Sider>Sider</Sider>
-          <Content>Content</Content>
-        </Layout>
-        <Footer>Footer</Footer>
-      </Layout>
+      <div className="layout">
+        <div className="header">
+          
+        </div>
+        <div className="content">32131</div>
+      </div>
     </>
   );
 };
